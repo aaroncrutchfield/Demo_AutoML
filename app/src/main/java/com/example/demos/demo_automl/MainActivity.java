@@ -109,6 +109,7 @@ public class MainActivity extends AppCompatActivity {
 
                         @Override
                         public void onFailure(Call<Network.PayloadRequest> call, Throwable t) {
+                            t.printStackTrace();
                             Log.d("MainActivity", "onFailure: " + t.getMessage());
                         }
                     });

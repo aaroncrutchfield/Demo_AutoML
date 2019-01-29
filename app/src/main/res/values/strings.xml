@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Demo_AutoML</string>
+    <string name="accounts">Accounts</string>
+    <string name="icon_desc">Application icon</string>
+    <string name="title_separator_desc">Title separator</string>
+    <string name="refresh">Refresh</string>
+    <string name="error">Error</string>
+    <string name="error_format">[Error] %s</string>
 </resources>
